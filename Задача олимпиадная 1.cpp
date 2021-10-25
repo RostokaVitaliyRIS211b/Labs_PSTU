@@ -42,7 +42,7 @@ int main()
 
     }
     else
-        if (((int)(s[1]) > (int)(s[0])) && ((int)(s[1]) > (int)(s[2])))
+        if (((int)(s[1]) > (int)(s[0])) and ((int)(s[1]) > (int)(s[2])))
         {
             cout << "Максимальная комбинация:" << "\n";
             if ((int)(s[0]) > (int)(s[3]))
@@ -56,7 +56,7 @@ int main()
             }
         }
         else
-            if (((int)(s[2]) > (int)(s[1])) && ((int)(s[2]) > (int)(s[0])))
+            if (((int)(s[2]) > (int)(s[1])) and ((int)(s[2]) > (int)(s[0])))
             {
                 cout << "Максимальная комбинация:" << "\n";
                 if ((int)(s[1]) > (int)(s[0]))
