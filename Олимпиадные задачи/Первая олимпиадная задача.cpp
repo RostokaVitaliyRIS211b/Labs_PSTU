@@ -2,7 +2,7 @@
 #include<clocale>
 using namespace std;
 string s;
-int maino()
+int main()
 {
 	setlocale(LC_ALL,"ru");
     cout << "Введите трехзначное число с неповторяющимися цифрами" << "\n";
