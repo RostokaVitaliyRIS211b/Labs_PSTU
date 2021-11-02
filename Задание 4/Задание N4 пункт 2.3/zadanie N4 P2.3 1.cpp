@@ -1,14 +1,14 @@
 #include <iostream>
 #include <clocale>
 using namespace std;
-int mainкеугукгук()
+int main()
 {
 	setlocale(LC_ALL, "ru");
 	int i,x;
-	cout << "Введите первое число" << "\n";
+	cout << "Р’РІРµРґРёС‚Рµ РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ" << "\n";
 	cin >> i;
-	cout << "Введите второе число" << "\n";
+	cout << "Р’РІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ" << "\n";
 	cin >> x;
-	cout << "Результат умножения = "<<i*x<< "\n";
+	cout << "Р РµР·СѓР»СЊС‚Р°С‚ СѓРјРЅРѕР¶РµРЅРёСЏ = "<<i*x<< "\n";
 	return (0);
 }
