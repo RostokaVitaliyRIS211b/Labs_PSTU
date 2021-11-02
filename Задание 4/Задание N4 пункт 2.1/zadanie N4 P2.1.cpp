@@ -2,11 +2,11 @@
 #include <clocale>
 
 using namespace std;
-int mainopo()
+int main()
 {
 	setlocale(LC_ALL, "ru");
 	int i;
 	i = 1;
-	cout<<" Ðåçóëüòàò âûðàæåíèÿ ++i * i++ = " << ++i * i++ << "\n";
+	cout<<" Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚ Ð²Ñ‹Ñ€Ð°Ð¶ÐµÐ½Ð¸Ñ ++i * i++ = " << ++i * i++ << "\n";
 	return (0);
 }
