@@ -1,7 +1,7 @@
 #include <iostream>
 #include <clocale>
 using namespace std;
-int mainuioe()
+int main()
 {
 	setlocale(LC_ALL, "ru");
 	const int a = 10;
