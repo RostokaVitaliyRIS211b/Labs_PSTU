@@ -1,12 +1,12 @@
 #include <iostream>
 #include <clocale>
 using namespace std;
-int mainert()
+int main()
 {
 	setlocale(LC_ALL, "ru");
 	int i;
-	cout << "Ââåäèòå êîëè÷åñòâî ãàëëîíîâ"<<"\n";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð³Ð°Ð»Ð»Ð¾Ð½Ð¾Ð²"<<"\n";
 	cin>>i;
-	cout << "Îáúåì â êóáè÷åñêèõ ôóòàõ = " << i / 7.481<< "\n";
+	cout << "ÐžÐ±ÑŠÐµÐ¼ Ð² ÐºÑƒÐ±Ð¸Ñ‡ÐµÑÐºÐ¸Ñ… Ñ„ÑƒÑ‚Ð°Ñ… = " << i / 7.481<< "\n";
 	return (0);
 }
